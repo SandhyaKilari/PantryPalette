@@ -5,8 +5,6 @@ Many households struggle with **unused ingredients**, leading to **food waste** 
 
 **PantryPalette** simplifies this by offering an **ingredient-based recipe discovery experience**, helping users **maximize groceries**, minimize waste, and explore **new meal ideas effortlessly**.  
 
----
-
 ## 🚀 Features  
 ✅ **🔍 Ingredient-Based Recipe Recommendations**  
    Enter ingredients, and get a ranked list of relevant recipes.  
@@ -22,8 +20,6 @@ Many households struggle with **unused ingredients**, leading to **food waste** 
 
 ✅ **🖥️ User-Friendly Interface**  
    Built with **Streamlit** for an interactive and accessible experience.  
-
----
 
 ## 👥 Team Members  
 👩‍💻 **Madhurya Shankar**  
