@@ -1,7 +1,30 @@
-# PantryPalette-Your-Ingredient-Inspired-Recipe-Guide
+# 🍽️ PantryPalette: Your Ingredient-Inspired Recipe Guide  
 
-Every day, households struggle with unused ingredients in their kitchens, often leading to food waste due to a lack of inspiration or knowledge on how to use them effectively. Many individuals resort to takeout or repetitive meals, simply because they don’t know what to cook with the ingredients they already have. 
+## 📌 Problem Statement  
+Many households struggle with **unused ingredients**, leading to **food waste** and repetitive meal choices. Finding new recipes is often **time-consuming**, and those with dietary restrictions face additional challenges.  
 
-Meanwhile, traditional recipe search methods require manual browsing through extensive databases, leading to time-consuming and frustrating experiences. Users with dietary restrictions, allergies, or cultural food preferences face an additional challenge in finding recipes that align with their needs.
+**PantryPalette** simplifies this by offering an **ingredient-based recipe discovery experience**, helping users **maximize groceries**, minimize waste, and explore **new meal ideas effortlessly**.  
 
-PantryPalette is designed to solve this problem by offering a seamless, ingredient-based recipe discovery experience that helps users maximize their groceries, reduce food waste, and discover new meal ideas with ease.
+---
+
+## 🚀 Features  
+✅ **🔍 Ingredient-Based Recipe Recommendations**  
+   Enter ingredients, and get a ranked list of relevant recipes.  
+
+✅ **🌱 Reduce Food Waste**  
+   Optimize groceries by discovering creative meal ideas.  
+
+✅ **🍽️ Alternative Ingredient Suggestions**  
+   Find recipes that require minimal additional ingredients.  
+
+✅ **🌐 Real-Time Data Integration**  
+   Leverages the **Spoonacular API** for updated recipes.  
+
+✅ **🖥️ User-Friendly Interface**  
+   Built with **Streamlit** for an interactive and accessible experience.  
+
+---
+
+## 👥 Team Members  
+👩‍💻 **Madhurya Shankar**  
+👩‍💻 **Sandhya Kilari**  
