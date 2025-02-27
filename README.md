@@ -6,19 +6,19 @@ Many households struggle with **unused ingredients**, leading to **food waste** 
 **PantryPalette** simplifies this by offering an **ingredient-based recipe discovery experience**, helping users **maximize groceries**, minimize waste, and explore **new meal ideas effortlessly**.  
 
 ## 🚀 Features  
-✅ **🔍 Ingredient-Based Recipe Recommendations**  
+**🔍 Ingredient-Based Recipe Recommendations**  
    Enter ingredients, and get a ranked list of relevant recipes.  
 
-✅ **🌱 Reduce Food Waste**  
+**🌱 Reduce Food Waste**  
    Optimize groceries by discovering creative meal ideas.  
 
-✅ **🍽️ Alternative Ingredient Suggestions**  
+**🍽️ Alternative Ingredient Suggestions**  
    Find recipes that require minimal additional ingredients.  
 
-✅ **🌐 Real-Time Data Integration**  
+**🌐 Real-Time Data Integration**  
    Leverages the **Spoonacular API** for updated recipes.  
 
-✅ **🖥️ User-Friendly Interface**  
+**🖥️ User-Friendly Interface**  
    Built with **Streamlit** for an interactive and accessible experience.  
 
 ## 👥 Team Members  
