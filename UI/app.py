@@ -29,9 +29,17 @@ def get_connection():
 # Load Trained Models (TF-IDF + Nearest Neighbors)
 # ---------------------------------------------
 @st.cache_resource
-def load_similarity_models():
-    vectorizer = joblib.load("https://drive.google.com/file/d/1hTaVi9ZB2pxMFQ5MOwD3Ozc8raf31pL8/view?usp=drive_link")
-    nn_model = joblib.load("https://drive.google.com/file/d/1uSIeGdZYyJHb7QDBSD4qDx9zAa17J_lI/view?usp=drive_link")
+def load_similarity_models_from_drive():
+    # TF-IDF Vectorizer
+    tfidf_url = "https://drive.google.com/uc?export=download&id=1hTaVi9ZB2pxMFQ5MOwD3Ozc8raf31pL8"
+    response1 = requests.get(tfidf_url)
+    vectorizer = joblib.load(BytesIO(response1.content))
+
+    # Nearest Neighbors Model
+    nn_url = "https://drive.google.com/uc?export=download&id=1uSIeGdZYyZt_gTzZWvI9HuArZ2zNx-Az" 
+    response2 = requests.get(nn_url)
+    nn_model = joblib.load(BytesIO(response2.content))
+
     return vectorizer, nn_model
 
 tfidf_vectorizer, nearest_neighbors_model = load_similarity_models()
