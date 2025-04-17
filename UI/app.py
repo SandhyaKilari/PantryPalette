@@ -29,7 +29,7 @@ def get_connection():
 # Load Trained Models (TF-IDF + Nearest Neighbors)
 # ---------------------------------------------
 @st.cache_resource
-def lload_similarity_models():
+def load_similarity_models():
     # TF-IDF Vectorizer
     tfidf_url = "https://drive.google.com/uc?export=download&id=1hTaVi9ZB2pxMFQ5MOwD3Ozc8raf31pL8"
     response1 = requests.get(tfidf_url)
