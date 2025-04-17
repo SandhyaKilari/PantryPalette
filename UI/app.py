@@ -22,7 +22,7 @@ st.set_page_config(
 # Database Search Functions
 # -------------------------------
 def get_connection():
-    conn = sqlite3.connect("database/traineddatabase.db")
+    conn = sqlite3.connect("https://drive.google.com/file/d/1FRNAtJiw8hpnvul1LqX3Bjjk4fttevoG/view?usp=drive_link")
     return conn
 
 # ---------------------------------------------
@@ -30,8 +30,8 @@ def get_connection():
 # ---------------------------------------------
 @st.cache_resource
 def load_similarity_models():
-    vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
-    nn_model = joblib.load("models/nearest_neighbors_model.pkl")
+    vectorizer = joblib.load("https://drive.google.com/file/d/1hTaVi9ZB2pxMFQ5MOwD3Ozc8raf31pL8/view?usp=drive_link")
+    nn_model = joblib.load("https://drive.google.com/file/d/1uSIeGdZYyJHb7QDBSD4qDx9zAa17J_lI/view?usp=drive_link")
     return vectorizer, nn_model
 
 tfidf_vectorizer, nearest_neighbors_model = load_similarity_models()
