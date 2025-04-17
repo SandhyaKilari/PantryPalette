@@ -8,6 +8,7 @@ import joblib
 import base64
 import os
 import sqlite3
+import requests
 
 # -------------------------------
 # Page Configuration
@@ -22,9 +23,13 @@ st.set_page_config(
 # Database Search Functions
 # -------------------------------
 def get_connection():
-    conn = sqlite3.connect("https://drive.google.com/file/d/1FRNAtJiw8hpnvul1LqX3Bjjk4fttevoG/view?usp=drive_link")
+    db_url = "https://drive.google.com/uc?export=download&id=1FRNAtJiw8hpnvul1LqX3Bjjk4fttevoG"
+    db_path = "temp_recipes.db"
+    
+    # Return SQLite connection
+    conn = sqlite3.connect(db_path)
     return conn
-
+    
 # ---------------------------------------------
 # Load Trained Models (TF-IDF + Nearest Neighbors)
 # ---------------------------------------------
