@@ -9,6 +9,7 @@ import base64
 import os
 import sqlite3
 import requests
+from io import BytesIO
 
 # -------------------------------
 # Page Configuration
